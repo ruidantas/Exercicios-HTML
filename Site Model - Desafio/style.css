@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 3rem 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+}
+
+#backgroundhead{
+    background-color: #D7D5FF;
+    width: 150%;
+    height: 60vh;
+}
+
+#titulonome {
+    font-size: 3rem;
+    padding: 5rem;
+   
+    
+}
+
+#paragrafo {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+#imagemhead  {
+    padding: 5rem;
+    margin-bottom: 15rem;
+ 
+    
+}
+
+#cabeçalho {
+    display: flex ;
+    justify-content: space-around;
+        /* flex-direction: column; */
+    font-size: 3rem;
+    padding: 4rem;
+
+}
+
+#menu {
+padding: 4rem;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 15rem;
+ 
+ 
+}
+
+.opcoes {
+background-color: rgb(215, 215, 218);
+width: 340px;
+height: 400px;
+border: solid black 1px;
+
+}
+
+.divisoria {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.opcoesbranco{
+background-color: rgb(7, 7, 7);
+width: 100%;
+height: 50%;
+border: solid black 1px;
+}
+
+.opcoesvermelho{
+    background-color: #FF6363;
+    width: 100%;
+    height: 50%;
+    border: solid black 1px;
+}
+
+.opcoesciano{
+    background-color: #63ECFF;
+     width: 100%;
+     height: 50%;
+     border: solid black 1px;
+} 
+
+.opcoesroxo{
+    background-color: #F363FF;
+     width: 100%;
+     height: 50%;
+     border: solid black 1px;
+}   
+
+
+.opcoesverde{
+    background-color: #63FF73;
+     width: 100%;
+     height: 50%;
+     border: solid black 1px;
+}   
+
+
+.opcoesamarelo{
+    background-color: #FFDD63;
+     width: 100%;
+     height: 50%;
+     border: solid black 1px;
+} 
+
+.opcoeslilas{
+    background-color: #6663FF;
+     width: 100%;
+     height: 50%;
+     border: solid black 1px;
+} 
+
+
+.textodiv {
+    padding: 2rem;
+    
+}
+
+.titulodiv {
+padding: 1rem;
+text-align: start   ;
+}
